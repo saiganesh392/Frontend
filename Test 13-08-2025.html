@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <center>
+        <h1><img src="./Images/star2.jpg" width="30"> John Doe's Web Portfolio</h1>
+        <i>showcasing Html Skills using Tables</i><br><br>
+        <a href="#about">About</a>&nbsp;|&nbsp;
+        <a href="#skills">Skills</a>&nbsp;|&nbsp;
+        <a href="#projects">Projects</a>&nbsp;|&nbsp;
+        <a href="#contactme">Contact</a>
+    </center>
+    <hr>
+    <table border="1" width="100%" cellspacing="0" cellpadding="10">
+       <tr><td colspan="2">
+    <table border="0" width="98%">
+        <tr>
+            <td colspan="2">
+                <h3 id="about"><img src="./Images/personlogo.png" width="30"> About Me</h3>
+                <p>Hello!! I'm John Doe, a passionate web developer. I love building semantic, accesible, and responsive websites using core web technologies.</p>
+                <p>I specialize in front-end development, especially HYML, CSS, and JavaScript.</p></td>
+            <td align ="right">
+                <img src="./Images/profile.png" width="70">
+            </td>
+        </tr>
+       </table></tr>
+        <tr>
+            <td>
+                <h3 id="skills"><img src="./Images/brain.png" width="20">Skills</h3>
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript(ES6+)</li>
+                        <li>Responsive Design</li>
+                        <li>Git&GitHub</li>
+
+                    </ul>
+                <h3><img src="./Images/textedit.png" width="20">  Skill Levels</h3>
+                <table border="1" width="200">
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Expert</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <h3 id="projects"><img src="./Images/folder.png" width="20"> Projects</h3>
+                <ol>
+                    <li><b>Portfolio Website-</b>My personalportfolio but using pure HTML and CSS.</li>
+                    <li><b>Todo App-</b>A task management tool with vanilla JavaScript.</li>
+                    <li><b>Weather App-</b>A real-time weather dashboard using API's.</li>
+                </ol>
+                <h3 ><img src="./Images/screenshot.png" width="20"> Screenshot </h3>
+                <img src="./Images/HTML.png" alt="Project review" width="200">
+
+            </td>
+        </tr>
+        <tr align="center"> 
+            <td colspan="2">
+                <h3 id="contactme"><img src="./Images/contactme.png" width="20">  Contact Me</h3>
+                <fieldset>
+                    <legend>Contact Form</legend>
+                        <form action="./submit.html" >
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name"><br><br>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email"><br><br>
+                            <label for ="gender">Gender:</label>
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label for="female">Female</label><br><br>
+                            <label for="service">Services Interested:</label>
+                            <input type="checkbox" name="service" id="web design" value="web design">
+                            <lable for="web design">Web Design</lable><br>
+                            <input type="checkbox" name="service" id="seo" value="seo">
+                            <lable for="seo">SEO</lable><br><br>
+                            <label for="country">Country:</label>
+                            <select id="country">
+                                <option name="country" value="USA">USA</option>
+                                <option name="country" value="India">India</option>
+                            </select><br><br>
+                            <label for="message">Message:</label>
+                            <textarea rows="5" cols="40" name="message" id="message"> </textarea><br><br>
+                            <input type="submit" value="Send">
+                            <input type="submit" value="Clear">
+                        </form>
+                </fieldset>
+            </td>
+        </tr>
+        <tr align="center"><td colspan="2">
+            <p><img src="./Images/footer.jpeg" width="30">Last Updated: August 13, 2025</p>
+            <br>
+            <i>Created by John Doe</i><br>
+            <i>Email:<a href=""> john@example.com</a></i>
+            <br><i>Website:<a href=""> example.com</a></i><br>
+            <p>&copy; 2025 John Doe. All rights reserved.</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
